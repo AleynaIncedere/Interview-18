@@ -1,0 +1,45 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f4f4f9; 
+  color: #333; 
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ce1eb9; 
+  margin-bottom: 20px; 
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #cb106d; 
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; 
+  }
+  .price {
+    font-size: 1.2rem; 
+  }
+}
+ 
